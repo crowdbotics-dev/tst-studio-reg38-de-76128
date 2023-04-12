@@ -1,3 +1,4 @@
+import { TextInput } from "react-native";
 import { Pressable } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
@@ -10,7 +11,7 @@ const Untitled4 = () => {
         position: 'relative',
         flex: 1
       }}><View style={styles.ofEGjHtU}></View><View style={styles.BjMpdrkz}></View></ScrollView></Pressable>
-    </SafeAreaView>;
+    <TextInput style={styles.CWYDAYoq} placeholder="test sadasde"></TextInput></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -29,6 +30,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777"
+  },
+  CWYDAYoq: {
+    backgroundColor: "#ffffff",
+    borderColor: "#cccccc",
+    width: 180,
+    height: 150
   }
 });
 export default Untitled4;
